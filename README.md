@@ -1,1 +1,5 @@
-# Portable EKG
+This EKG, being a portable solution, cuts down on the number of system inputs a conventional hospital-grade EKG would have (up to 12 leads) to a single lead. This allows the EKG to be extremely compact. We chose to implement a single lead which measures the voltage of the heart across the left ventricle, and a neutral point on the body. For our purpose, using a point on the left hand for the EKG input, and a point on the right hand for the EKG ground suffices. However, different points on the body could potentially be used as well. 
+Using Arduino as the prototype enviromnet for our solution offered capabilities for rapid prototyping, as well as access to a plethora of additonal GUI resources allowing our EKG to be both functionally exceptional as well as visually delightful. Our GUI was best in class, and was saved by our professor as a model for future students.
+________________________________________________________________________________________________________
+
+Skills Utilized: Schematic creation, filter design, component selection, Breadboarding, C/C++, timing analysis, Communication Protocols (i2c), graphic user interface, SD card storage, Bluetooth wireless module.
